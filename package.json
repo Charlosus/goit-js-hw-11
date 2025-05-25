@@ -3,7 +3,7 @@
   "private": true,
   "version": "1.0.0",
   "type": "module",
-"homepage": "https://charlosus.github.io/goit-js-hw-11",
+  "homepage": "https://charlosus.github.io/goit-js-hw-11",
   "scripts": {
     "dev": "vite",
     "build": "vite build --base=/goit-js-hw-11/",
@@ -21,6 +21,8 @@
   "author": "Karol Sledz <sledz.karol.93@gmail.com>",
   "license": "ISC",
   "dependencies": {
+    "izitoast": "^1.4.0",
+    "simplelightbox": "^2.14.3",
     "vite-plugin-full-reload": "^1.2.0",
     "vite-plugin-html-inject": "^1.1.2"
   }
