@@ -3,18 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="./css/imageSearcher.css" />
+    <title>Searching photo in pixabay</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
   <script type="module" crossorigin src="/goit-js-hw-11/assets/modulepreload-polyfill-B5Qt9EMX.js"></script>
-  <script type="module" crossorigin src="/goit-js-hw-11/assets/vendor-SZ1rGOpr.js"></script>
-  <script type="module" crossorigin src="/goit-js-hw-11/assets/imageSearcher-Dhp0NVpf.js"></script>
+  <script type="module" crossorigin src="/goit-js-hw-11/assets/vendor-B2mb6eXk.js"></script>
+  <script type="module" crossorigin src="/goit-js-hw-11/assets/imageSearcher-Bd-D_JjW.js"></script>
   <link rel="stylesheet" crossorigin href="/goit-js-hw-11/assets/vendor-Dr4k8ETB.css">
+  <link rel="stylesheet" crossorigin href="/goit-js-hw-11/assets/imageSearcher-CtIO9m3E.css">
 </head>
-<body>
+<body class="gallery-body">
+   
     <form class="search-form">
-        <input type="text" name="searchQuery" autocomplete="off" placeholder="What are you looking for..." />
-        <button type="submit">Search</button>
-    </form>
+        <input class="user-input" type="text" name="searchQuery" autocomplete="off" placeholder="What are you looking for..." />
+        <button class="button" type="submit">Search</button>
+    </form> 
+    <div class="gallery-container">
+    <div class="loader"></div>
     <ul class="gallery"></ul>
+</div>
 </body>
 </html>
